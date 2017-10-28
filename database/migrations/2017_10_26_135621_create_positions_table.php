@@ -14,8 +14,9 @@ class CreatePositionsTable extends Migration
     public function up()
     {
         Schema::create('positions', function (Blueprint $table) {
-            $table->integer('id')->unsigned()->nullable();
-            $table->primary('id');
+            $table->increments('id')->unsigned()->nullable();
+            $table->string('name');
+            $table->boolean('status')->nullable();
             $table->integer('project_id')->unsigned()->nullable();
             $table->foreign('project_id')->references('id')->on('projects');
             $table->timestamps();
