@@ -42,10 +42,11 @@ Table Of Index
 34. Model Popup
 35. Blog
 36. Accordian
+37. Section categories
 ------------------------------------------*/
 
 
- @import url(../webcss/custom_fonts.css);
+@import url(../webcss/custom_fonts.css);
 
 body {
     background: #f9f9f9;	
@@ -84,7 +85,7 @@ body.modal-open {
 	width: 25px;
 }
 .mobile-menu.add-job a {
-    background: #12cd6a none repeat scroll 0 0 !important;
+    background: #26ae61 none repeat scroll 0 0 !important;
     border: medium none;
     border-radius: 23px;
     color: #ffffff !important;
@@ -98,7 +99,7 @@ body.modal-open {
 }
 .logins span {
 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 2px solid #12cd6a;
+    border: 2px solid #26ae61;
     border-radius: 26px;
     color: #232323;
     font-family: OpenSansBold;
@@ -108,15 +109,15 @@ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     width: auto;
 }
 .logins span:hover {
-    background: #12cd6a;
+    background: #26ae61;
     color: #fff;
 }
 
 .logins span:hover {
-    background: #12cd6a;
+    background: #26ae61;
 }
 .logins .login {
-background: #12cd6a none repeat scroll 0 0;
+background: #26ae61 none repeat scroll 0 0;
     border-radius: 23px;
     color: #ffffff;
     float: right;
@@ -137,7 +138,7 @@ h3 {
 	font-family: OpenSansBold;
 	font-size:40px;
 	margin: 0 0 4px;
-	color: #333;
+	color: #243644;
 }
 h4 {
 	font-family:OpenSansRegular;
@@ -224,7 +225,7 @@ nav.navbar.home {
 	position: absolute;
 	left: 0;
 	right: 0;
-	background: #333;
+	background: #243644;
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.0) none repeat scroll 0 0;
@@ -246,7 +247,7 @@ ul.dropdown-menu {
 }
 /*///////////Navigatiosns///////////////*/
 .nav a {
-    color: #333;
+    color: #243644;
     font-family: OpenSansBold;
     font-size: 15px;
     text-transform: uppercase;
@@ -268,7 +269,7 @@ ul.dropdown-menu {
 }
 ul.dropdown-menu li a {
     text-transform: none;
-    color: #333 !important;
+    color: #243644 !important;
     padding: 13px 20px;
     margin: 0px 18px;
     border-bottom: 1px solid #e9e9e9;
@@ -277,18 +278,18 @@ ul.dropdown-menu li a {
 .nav>li>a:focus, 
 .nav>li>a:hover,
 .nav li.active a {
-    color: #12cd6a;
+    color: #26ae61;
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }
 ul.tiny_scrolling li a {
     text-transform: none;
-    color: #333;
+    color: #243644;
     padding: 13px 4px;
     margin: 0px 18px;
     border-bottom: 1px solid #e9e9e9;
 }
 ul.dropdown-menu li a:hover {
-    color: #12cd6a !important;
+    color: #26ae61 !important;
 	text-decoration: none;
 }
 ul.dropdown-menu li:last-child a {
@@ -305,7 +306,7 @@ ul.dropdown-menu li:last-child a {
 	z-index: -1;
 }
 .slogan h1 {
-color: #333333;
+color: #243644;
     font-family: LatoBlack;
     font-size: 58px;
 }
@@ -313,21 +314,21 @@ color: #333333;
     margin: 0;
     font-family: RalewayLight;
     font-size: 25px;
-	color:#333;
+	color:#243644;
     text-align: center;
 }
 .slogan span {
-    color: #12cd6a;
+    color: #26ae61;
 }
 .slogan a:hover {
     background: #fff;
-    color: #333;
+    color: #243644;
     border: 2px solid #ddd;
 }
 .slogan a {
     background: #fff;
-    border: 2px solid #12cd6a;
-    color: #333;
+    border: 2px solid #26ae61;
+    color: #243644;
     display: inline-block;
     font-family: OpenSansSemibold;
     font-size: 15px;
@@ -352,30 +353,30 @@ color: #333333;
     font-family: OpenSansSemibold;
     font-size: 14px;
     padding: 20px 28px 20px 20px;
-    color: #333;
+    color: #243644;
     height: inherit;
     border-radius: 0;
     border: none;
     border-radius: 11px;
 }
 ::-webkit-input-placeholder {
-	 color: #333 !important;
+	 color: #243644 !important;
 }
 :-moz-placeholder { /* Firefox 18- */
- 	color: #333 !important;
+ 	color: #243644 !important;
 }
 ::-moz-placeholder {  /* Firefox 19+ */
- 	color: #333 !important;
+ 	color: #243644 !important;
 }
 :-ms-input-placeholder {  
- 	color: #333 !important;
+ 	color: #243644 !important;
  }
 .jobs_filters button .glyphicon {
     float: right;
-	color:#12cd6a;
+	color:#26ae61;
 }
 .jobs_filters {
-    background: #12cd6a;
+    background: #26ae61;
     padding: 24px 0 9px;
     box-shadow: 0 -17px 15px -17px #099b4e inset;
 }
@@ -418,7 +419,7 @@ color: #333333;
     padding: 8px;
 }
 .jobs_filters .tiny_scrolling li a:hover {
-    color: #12cd6a;
+    color: #26ae61;
 }
 .tiny_scrolling li {
     padding: 0;
@@ -440,7 +441,7 @@ color: #333333;
     position: absolute;
     right: 40px;
     top: 22px;
-    color: #12cd6a;
+    color: #26ae61;
 }
 .filter_width.bgicon .fa {
     font-size: 18px;
@@ -451,8 +452,8 @@ color: #333333;
     text-indent: -9999px;
 }
 .jobs_filters .form-group .customsubmit:hover {
-    background: #333 none repeat scroll 0 0;
-    border: 2px solid #333;
+    background: #243644 none repeat scroll 0 0;
+    border: 2px solid #243644;
 }
 
 .jobs_filters .form-group .fa-search {
@@ -492,13 +493,13 @@ color: #333333;
     border: 1px solid #d0d0d0;
     font-family: LatoRegular;
     font-size: 13px;
-    color: #333;
+    color: #243644;
     border-radius: 9px;
 	text-transform: none;
 }
 .tab_filters ul.nav li a:hover {
-    background: #333 none repeat scroll 0 0;
-    border: 1px solid #333;
+    background: #243644 none repeat scroll 0 0;
+    border: 1px solid #243644;
     color: #ffffff;
 }
 .tab_filters ul.nav li:last-child {
@@ -507,8 +508,8 @@ color: #333333;
 .tab_filters ul.nav li.active a {
     font-family: OpenSansBold;
     color: #fff;
-    border: 1px solid #12cd6a;
-    background: #12cd6a;
+    border: 1px solid #26ae61;
+    background: #26ae61;
 }
 .tab_filters h5,.tab_filters h4 {
     margin: 0;
@@ -528,7 +529,7 @@ color: #333333;
 	margin-top: 28px;
 }
 .filter-result:hover {
-    border-bottom: 2px solid #12cd6a;
+    border-bottom: 2px solid #26ae61;
 
 }
 .filter-result {
@@ -566,7 +567,7 @@ color: #333333;
     color: #909090;
 }
 .label{
-background: #12cd6a none repeat scroll 0 0;
+background: #26ae61 none repeat scroll 0 0;
     border-radius: 0;
     float: left;
     font-family: OpenSansBold;
@@ -583,7 +584,7 @@ background: #12cd6a none repeat scroll 0 0;
 .filter-result .location p {
     font-size: 12px;
     line-height: normal;
-    color: #333;
+    color: #243644;
  
 }
 .data-job {
@@ -620,18 +621,18 @@ background: #12cd6a none repeat scroll 0 0;
     text-align: center;
     display: block;
     margin: 0 auto;
-    color: #333;
+    color: #243644;
     padding: 12px 47px;
     font-family: OpenSansBold;
     position: relative;
     text-transform: uppercase;
 	margin:  55px auto 28px;
      background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-     border: 2px solid #12cd6a;
+     border: 2px solid #26ae61;
      border-radius: 26px;
 }
 #load_more:hover {
-    background: #12cd6a  !important;
+    background: #26ae61  !important;
      color: #fff;
 }
 #load_more .glyphicon {
@@ -748,7 +749,7 @@ color: #ffffff;
 }
 .priceing_tables .header {
     border-bottom: 1px solid #f2f2f2;
-    color: #333;
+    color: #243644;
     font-family: OpenSansBold;
     font-size: 25px;
     padding: 48px 0;
@@ -777,7 +778,7 @@ priceing_tables  .startup {
     font-size: 63px;
     float: left;
     width: 100%;
-    color: #333;
+    color: #243644;
 	height: 121px;
 }
 
@@ -800,7 +801,7 @@ priceing_tables  .startup {
 }
 .priceing_tables ul li {
       border-bottom: 1px solid #f2f2f2;
-    color: #333;
+    color: #243644;
     padding: 13px;
 }
 .priceing_tables .purchase-now {
@@ -809,9 +810,9 @@ priceing_tables  .startup {
     margin: 25px 0;
 }
 .priceing_tables .purchase-now a {
-    border: 2px solid #12cd6a;
+    border: 2px solid #26ae61;
     border-radius: 77px;
-    color: #12cd6a;
+    color: #26ae61;
     display: inherit;
     font-family: OpenSansBold;
     font-size: 15px;
@@ -822,8 +823,8 @@ priceing_tables  .startup {
     text-transform: uppercase;
 }
 .priceing_tables .pro .purchase-now a {
-   background: #12cd6a none repeat scroll 0 0;
-    border: 1px solid #12cd6a;
+   background: #26ae61 none repeat scroll 0 0;
+    border: 1px solid #26ae61;
     color: #ffffff;
 }
 .priceing_tables .purchase-now a:hover {
@@ -833,7 +834,7 @@ priceing_tables  .startup {
 
 }
 .border.pro {
-    border: 5px solid #12cd6a;
+    border: 5px solid #26ae61;
 }
 
 .priceing_tables .pro .header span {
@@ -870,12 +871,13 @@ background: #fa2328 none repeat scroll 0 0;
 }
 .posts-list .post-thumb img {
     width: 100%;
-	-moz-transition: all 0.8s;
+    filter: grayscale(30%);
+    -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
 }
 .posts-list .post-meta {
-    padding: 0 30px 24px;
+    padding: 0 8px 24px;
     background:#fff;
     float: left;
     width:100%;
@@ -884,41 +886,46 @@ background: #fa2328 none repeat scroll 0 0;
     position: absolute;
     bottom: 10px;
     background: none;
-    left: 30px;
+    left: 10px;
 }
 .post-date .date {
     float: left;
     width: 100%;
     color: #fff;
     text-align: center;
-    line-height: 30px;
+    line-height: 26px;
 }
 .postdate {
-   	background: #12cd6a;
-    font-size: 18px;
-    font-family: OpenSansSemibold;
+   	background: #26ae61;
+   	font-size: 13px;
+   	font-family: OpenSansSemibold;
 }
 .postmonth {
-   	background: #333;
+   	background: #243644;
     font-family: OpenSansBold;
     font-size: 14px;
 }
 .posts-list .post-meta h4 {
     font-family: OpenSansBold;
-    margin: 23px 0;
-    line-height: 20px;
+    margin: 11px 0;
+    font-size: 20px;
+    line-height: 5px;
+    color: #243644;
+    text-align: center;
 }
 .posts-list .post-meta p {
-  color: #333;
-    font-family: LatoRegular;
-    font-size: 13px;
-    line-height: 29px;
-    margin-bottom: 19px;x;
+  color: #243644;
+  font-family: LatoRegular;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 19px;
+  x;
 }
 .posts-list .post-meta .readmore {
-    border: 1px solid #12cd6a;
+    border: 1px solid #26ae61;
     border-radius: 22px;
-    color: #12cd6a;
+    color: #26ae61;
     float: left;
     font-family: OpenSansBold;
     font-size: 11px;
@@ -926,8 +933,8 @@ background: #fa2328 none repeat scroll 0 0;
     text-transform: uppercase;
 }
 .posts-list .post-meta .readmore:hover {
-    background: #333 none repeat scroll 0 0;
-    border: 1px solid #333;
+    background: #243644 none repeat scroll 0 0;
+    border: 1px solid #243644;
     color: #ffffff;
 }
 .container.main-container > p {
@@ -981,20 +988,20 @@ background: #fa2328 none repeat scroll 0 0;
     border-radius: 44px;
 }
 .btn-getstarted.bg-red:hover {
-    background: #333;
+    background: #243644;
      color: #fff;
-     border: 2px solid #333;
+     border: 2px solid #243644;
 }
 .btn-blog {
-     border: 2px solid #12cd6a;
+     border: 2px solid #26ae61;
     border-radius: 44px;
-    color: #333;
+    color: #243644;
     padding: 12px;
 }
 .btn-blog:hover {
-    background: #12cd6a;
+    background: #26ae61;
      color: #fff;
-     border: 2px solid #12cd6a ;
+     border: 2px solid #26ae61 ;
 }
 /*///////////////////*/
 #owl-demo .item{
@@ -1012,7 +1019,7 @@ color: #ffffff;
     margin: 5px 0;
 }
 .owl-item .item span {
-    color: #12cd6a;
+    color: #26ae61;
 	width: initial;
 }
 #testio .owl-item .item p {
@@ -1024,8 +1031,8 @@ color: #ffffff;
     position: relative;
 }
 .container .owl-pagination .owl-page.active span {
-    background: #12cd6a;
-    border-color: #12cd6a;
+    background: #26ae61;
+    border-color: #26ae61;
 }
 .container .owl-pagination .owl-page span {
     border: 2px solid #fff;
@@ -1062,7 +1069,7 @@ color: #ffffff;
 /*///////Footer///////*/
 
 .main-container .list-group a::before {
-    content: "";
+    content: "ÃƒÂ¯Ã¢â‚¬Å¾Ã¢â‚¬Â¦";
     font-family: "FontAwesome";
     font-size: 13px;
     left: 15px;
@@ -1070,7 +1077,7 @@ color: #ffffff;
 }
 
 .main-container-home .list-group a::before {
-    content: "";
+    content: "ÃƒÂ¯Ã¢â‚¬Å¾Ã¢â‚¬Â¦";
     font-family: "FontAwesome";
     font-size: 13px;
     left: 15px;
@@ -1087,15 +1094,15 @@ color: #ffffff;
     padding-bottom: 5px;
 }
 .footer a {
-    color: #333;
+    color: #243644;
 }
 .footer ul li.active a,.footer a:hover {
-    color: #12cd6a;
+    color: #26ae61;
     padding-left: 6px;
 }
 .footer p {
     font-size: 15px;
-    color: #333;
+    color: #243644;
     font-family: LatoRegular;
 }
 .container-fluid.last-footer {
@@ -1120,11 +1127,11 @@ color: #ffffff;
 }
 /*////////////////////Inner Page/////////////*/
 .blue-banner {
-	background:#12cd6a;
+	background:#26ae61;
     
 }
 .green-banner {
-    background:#12cd6a;
+    background:#26ae61;
     box-shadow: 0 -17px 15px -17px #099b4e inset;
 }
 .page-title,
@@ -1144,7 +1151,7 @@ color: #ffffff;
     text-align: left;
 }
 .image-heading {
-    color: #333;
+    color: #243644;
     font-family: opensansbold;
     font-size: 39px;
     margin-bottom: 0;
@@ -1178,9 +1185,9 @@ color: #ffffff;
 }
 .btn-print.bg-blue{
 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 2px solid #12cd6a;
+    border: 2px solid #26ae61;
     border-radius: 40px;
-    color: #333;
+    color: #243644;
 }
 .btn-print.bg-blue:hover {
     background: #232323;
@@ -1201,7 +1208,7 @@ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 .user-data .user-tag span {
     float: left;
     width: 100%;
-    color: #12cd6a;
+    color: #26ae61;
     font-family: LatoRegular;
 }
 .user-data .user-tag {
@@ -1233,7 +1240,7 @@ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 
 .user-data .user-tag label span {
     font-size: 18px;
-    color: #333;
+    color: #243644;
     font-family: OpenSansBold;
     margin-top: 8px;
 }
@@ -1296,14 +1303,14 @@ background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 	margin: 33px 0;
 	float: left;
     width: 100%;
-    color: #333;
+    color: #243644;
 }
 ul.skills li {
     list-style: none;
 }
 .content ul li {
     font-family: OpenSansRegular;
-    color: #333;
+    color: #243644;
     font-size: 14px;
     list-style: outside none none;
     padding-bottom: 10px;
@@ -1315,7 +1322,7 @@ ul.skills li {
     position: absolute;
     width: 8px;
     height: 8px;
-    background: #12cd6a;
+    background: #26ae61;
     border-radius: 100%;
     left: 0;
     top: 7px;
@@ -1362,9 +1369,9 @@ ul.simple li {
 }
 .widget .label.apply-job {
   background: #ffffff none repeat scroll 0 0;
-    border: 2px solid #12cd6a;
+    border: 2px solid #26ae61;
     border-radius: 77px;
-    color: #333;
+    color: #243644;
 }
 
 .label.apply-job:hover {box-shadow: 0 15px 37px #cdcdcd;}
@@ -1411,7 +1418,7 @@ ul.simple li {
 .sidebar .subscribe h3 {
     font-size: 15px;
     font-family: OpenSansBold;
-    color: #333;
+    color: #243644;
     text-transform: none;
      margin-bottom: 21px;
 	line-height: normal;
@@ -1427,7 +1434,7 @@ ul.simple li {
     text-transform: uppercase;
     padding: 16px 0;
     border: none;
-    background: #12cd6a;
+    background: #26ae61;
     color: #fff;
 	border-radius: 0;
 }
@@ -1439,7 +1446,7 @@ ul.simple li {
     margin-bottom: 10px;
     border: 1px solid #e3e3e3;
     background: #fff;
-    color: #333;
+    color: #243644;
 }
 .subscribe {
     text-align: center;
@@ -1480,7 +1487,7 @@ ul.simple li {
 #recommended-job .related_jos h4 {
     font-family: OpenSansBold;
     font-size: 15px;
-    color: #333;
+    color: #243644;
     margin: 0 0 20px;
 }
 #recommended-job .related_jos p {
@@ -1503,7 +1510,7 @@ ul.simple li {
 }
 #recommended-job .related_jos span.salary {
  border-top: 1px solid #dddddd;
-    color: #333;
+    color: #243644;
     float: left;
     font-family: OpenSansBold;
     font-size: 16px;
@@ -1535,12 +1542,12 @@ ul.simple li {
     float: left;
 }
 .job-recom .recom-job:hover .related_jos {
-	border-bottom: 1px solid #12cd6a;
+	border-bottom: 1px solid #26ae61;
     box-shadow: 0 1px 18px #cdcdcd inset;
 
 }
 .job-recom .recom-job:hover .related_jos i {
-	color: #12cd6a;
+	color: #26ae61;
 }
 /*//////////////Page title with bg image//////////////////*/
 .title-image .page-title {
@@ -1578,7 +1585,7 @@ ul.simple li {
 }
 .title-image .page-title .job-admin, 
 .title-image .page-title .favourite {
-    color: #333;
+    color: #243644;
 }
 .section-jobinfo .main-container {
     padding: 20px 0;
@@ -1617,7 +1624,7 @@ ul.top_filters li label {
     padding-left: 30px;
     position: relative;
     text-transform: uppercase;
-    color: #333;
+    color: #243644;
 }
 ul.top_filters li label:after {
     content: "";
@@ -1693,7 +1700,7 @@ ul.top_filters li input[type="checkbox"]:checked + label:after {
     margin-right: 8%;
     position: relative;
     padding-bottom: 0;
-    color: #333;
+    color: #243644;
     font-size: 15px;
 }
 
@@ -1804,7 +1811,7 @@ ul.top_filters li input[type="checkbox"]:checked + label:after {
     margin: 0 0 0 9px;
 }
 #jobs-slider .owl-controls div:hover {
-	color: #12cd6a ;
+	color: #26ae61 ;
 }
 #jobs-slider .item .overlay, 
 #jobs-slider .item .slider-botom {
@@ -1839,13 +1846,13 @@ ul.top_filters li input[type="checkbox"]:checked + label:after {
     display: block;
 }
 .tag ul li a {
-	color: #333;
+	color: #243644;
     font-size: 15px;
     font-family: LatoRegular;
     display: block;
 }
 .tag ul li a:hover {
-    color: #12cd6a;
+    color: #26ae61;
 }
 /*////////////pricing Tabes ///////*/
 .title-image .pricing .container {
@@ -1883,16 +1890,16 @@ ul.top_filters li input[type="checkbox"]:checked + label:after {
 	position: relative;
 }
 .blocks p {
-   	color: #333333;
+   	color: #243644333;
     font-family: LatoRegular;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
 }
 .blocks a {
-border: 1px solid #12cd6a;
+border: 1px solid #26ae61;
     border-radius: 55px;
-    color: #12cd6a;
+    color: #26ae61;
     float: left;
     font-family: OpenSansBold;
     font-size: 11px;
@@ -1963,14 +1970,14 @@ border: 1px solid #12cd6a;
 }
 
 .how_work ul li {
-	background: #12cd6a;
+	background: #26ae61;
     padding:69px 50px 69px;
 	color: #fff;
 	float: left;
     width: 100%;
 }
 .how_work ul li.active {
-    background: #333;
+    background: #243644;
 }
 .how_work ul li h3 {
     color: #fff;
@@ -2014,7 +2021,7 @@ border: 1px solid #12cd6a;
 }
 
 .how_work ul li.counter-row{
-    background: #333;
+    background: #243644;
 }
 .how_work ul li ul li:last-child {
     margin: 0;
@@ -2053,15 +2060,15 @@ ul.alphabet li {
 	border: 1px solid #e1e1e1;
 	padding: 18px 16px;
 	font-size: 16px;
-	color: #333;
+	color: #243644;
 	line-height: normal;
 	font-family:LatoRegular;
     border-radius: 8px;
 }
 .contact_us .form-group input:focus, .contact_us .form-group textarea:focus {
-    border: 1px solid #12cd6a;
+    border: 1px solid #26ae61;
     box-shadow: none;
-    color: #333;
+    color: #243644;
 }
 .form-group.submit label {
     opacity: 0;
@@ -2073,7 +2080,7 @@ ul.alphabet li {
     font-family: OpenSansBold;
     border: none;
     font-size: 14px;
-    background: #333;
+    background: #243644;
     text-transform: uppercase;
     padding: 18px 46px;
     color: #fff;
@@ -2126,7 +2133,7 @@ ul.social li {
 }
 
 ul.social li a {
-    color: #333;
+    color: #243644;
     font-size: 20px;
 	margin-right: 23px;
 }
@@ -2137,7 +2144,7 @@ ul.social li a {
 /*///Login and Register ////////////////*/
 .deximJobs_tabs {
     box-shadow: 0 0 28px -3px #099b4e inset;
-    background: #12cd6a none repeat scroll 0 0;
+    background: #26ae61 none repeat scroll 0 0;
 }
 
 .deximJobs_tabs .main-container {
@@ -2186,7 +2193,7 @@ ul.social li a {
     font-size: 16px;
     padding: 10px 17px;
     font-family: LatoRegular;
-    border: 1px solid #12cd6a;
+    border: 1px solid #26ae61;
 }
 .contact_us .form-group .dropdown {
 		width: 75%;
@@ -2256,13 +2263,13 @@ ul.social li a {
     padding-bottom: 0;
 }
 .register {
-    background: #333 !important;
+    background: #243644 !important;
     font-size: 14px;
 	font-family: LatoRegular;
 }
 
 .deximJobs_tabs .contact_us .lost_password {
-    color: #333;
+    color: #243644;
     font-size: 15px;
     padding: 10px 20px;
 }
@@ -2299,7 +2306,7 @@ ul.social li a {
     background: #232323;
 }
 .deximJobs_tabs .sidebar .widget li .label.register {
-    background: #333;
+    background: #243644;
     width: initial;
     padding: 15px 40px;} 
 	
@@ -2397,7 +2404,7 @@ body .select2-search{
 	color: #888e94;
 }
 .container .select2-container-multi ul.select2-choices li {
-     background: #333333 none repeat scroll 0 0;
+     background: #243644333 none repeat scroll 0 0;
     border: medium none;
     border-radius: 33px;
     color: #ffffff;
@@ -2472,7 +2479,7 @@ body ul.select2-results li {padding: 11px 14px;
 }
 .contact_us span {
     font-size: 20px;
-    color: #333;
+    color: #243644;
     font-weight: bold;
 }
 #form-style-2 label.default {
@@ -2500,7 +2507,7 @@ body ul.select2-results li {padding: 11px 14px;
     position: relative;
 }
 .file-type .upload .filename {
-background: #12cd6a none repeat scroll 0 0;
+background: #26ae61 none repeat scroll 0 0;
     border-radius: 13px;
     color: #ffffff;
     cursor: pointer;
@@ -2586,11 +2593,11 @@ background: #12cd6a none repeat scroll 0 0;
 	padding: 40px 0 41px;
 }
 li.admin {
-    color: #12cd6a;
+    color: #26ae61;
 }
 
 li.admin span {
-    color: #333;
+    color: #243644;
     font-family: OpenSansBold;
     font-size: 15px;
 }
@@ -2614,7 +2621,7 @@ ul.skills li {
     line-height: normal;
     margin-right: 9px;
     font-size: 13px;
-    color: #333;
+    color: #243644;
 }
 ul.education li {
     margin: 0;
@@ -2707,7 +2714,7 @@ ul.education li:after,ul.education li:before {
     display: inline-block !important;
 }
 .order-total .place-order {
-    background: #333 none repeat scroll 0 0;
+    background: #243644 none repeat scroll 0 0;
     border-radius: 38px;
     color: #fff;
     margin: 0;
@@ -2789,18 +2796,18 @@ ul.order-table > li:before {
     border: 1px solid #e3e3e3
 }
 .form-group.order-items .cbox input[type="checkbox"]:checked + span:after {
-    background: #12cd6a;
+    background: #26ae61;
 }
 ul.order-table > li.payment {
     padding: 30px 26px;
     background: #fff;
 }
 .cbox ul.order-table > li.payment .cbox span {
-    color: #333;
+    color: #243644;
 }
 
 ul.order-table > li.payment .cbox span {
-	color: #333;
+	color: #243644;
 	font-weight: normal;
 }
 ul.order-table > li:last-child:before {
@@ -2842,14 +2849,14 @@ ul.order-table li span.mobile {
 }
 /*/////////Companies/////////////////*/
 .companies ul.nav li a {
-    color: #333;
+    color: #243644;
     border-radius: 0;
     font-size: 20px;
     font-family: LatoRegular;
     padding: 10px 15px;
 }
 .companies ul.nav li a:hover {
-    color: #333;
+    color: #243644;
 }
 .companies .main-container {
     padding: 37px 0;
@@ -2903,7 +2910,7 @@ ul.order-table li span.mobile {
     width: 100%;
     font-family: OpenSansBold;
     font-size: 26px;
-    color: #333;
+    color: #243644;
     text-transform: uppercase;
 }
 
@@ -2915,7 +2922,7 @@ ul.order-table li span.mobile {
 }
 
 .companies ul.list li ul li a {
-    color: #333;
+    color: #243644;
 }
 .companies.fixed-tabs .companies-tags {
 	position: fixed;
@@ -2935,7 +2942,7 @@ ul.order-table li span.mobile {
     width: 46px;
     height: 46px;
     color: #fff;
-    background: #12cd6a;
+    background: #26ae61;
     text-align: center;
     padding: 15px;
     float: left;
@@ -2974,7 +2981,7 @@ ul.order-table li span.mobile {
     position: relative;
 }
 .modal-dialog h3 {
-    color: #333;
+    color: #243644;
     text-transform: none;
     font-size: 24px;
     float: left;
@@ -2986,7 +2993,7 @@ ul.order-table li span.mobile {
     font-size: 14px;
     float: left;
     width: 100%;
-    color: #12cd6a;
+    color: #26ae61;
     margin-top: 10px;
 }
 .modal-dialog label {
@@ -3055,7 +3062,7 @@ ul.order-table li span.mobile {
     margin: 10px 0;
 }
 .modal-dialog .modal-footer span.submit-resume {
-    background: #333;
+    background: #243644;
 }
 
 /*///////////////blog //*/
@@ -3072,7 +3079,7 @@ form#search .form-group {
     position: relative;
 }
 form#search input {
-    color: #333;
+    color: #243644;
     font-size: 17px;
     font-family: LatoRegular;
     padding: 14px 27px;
@@ -3168,16 +3175,16 @@ form#search .form-group.submit input[type="submit"] {
 }
 #blog-sidebar ul li a {
     text-decoration: none;
-    color: #333;
+    color: #243644;
 }
 #blog-sidebar ul li a:hover {
-    color: #12cd6a;
+    color: #26ae61;
 }
 #blog-sidebar ul li:before {
 	content: "";
 	width: 5px;
 	height: 5px;
-	background: #333;
+	background: #243644;
 	position: absolute;
 	left: 23px;
 	border-radius: 1000%;
@@ -3208,12 +3215,12 @@ form#search .form-group.submit input[type="submit"] {
     margin-bottom: 37px;
 }
 .comment-section h3 span {
-    color: #12cd6a;
+    color: #26ae61;
 }
 .view-comments {
     float: left;
     width: 100%;
-    background: #333;
+    background: #243644;
     padding: 29px 27px;
 }
 .view-comments strong {
@@ -3251,7 +3258,7 @@ span.login-ins {
     margin-top: 20px;
 }
 #post-comments {
- background: #12cd6a none repeat scroll 0 0;
+ background: #26ae61 none repeat scroll 0 0;
     border: medium none;
     border-radius: 32px;
     color: #ffffff;
@@ -3275,7 +3282,7 @@ span.login-ins {
 
 #accordion .panel-heading a {
 	display: block;
-	background: #12cd6a;
+	background: #26ae61;
 	text-decoration: none;
 	color: #fff;
 	line-height: normal;
@@ -3342,7 +3349,7 @@ span.login-ins {
     margin: -75px 0 0 -75px;
     border-radius: 80%;
     border: 3px solid transparent;
-    border-top-color: #333;
+    border-top-color: #243644;
     -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
     animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -3370,7 +3377,7 @@ span.login-ins {
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #12cd6a;
+    border-top-color: #26ae61;
     -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
       animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
 }
@@ -3402,3 +3409,70 @@ span.login-ins {
 }
 
 /*/////////Loader /////////*/
+
+/* 37. Section categories */
+
+/*! CSS Used from: file:///C:/Users/redli/Desktop/themeforest-19474729-medipro-health-medical-html5-responsive-template%20(1)/main_files_v1.0/css/bootstrap.css */
+a{background-color:transparent;}
+a:active,a:hover{outline:0;}
+@media print{
+*,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+a,a:visited{text-decoration:underline;}
+a[href]:after{content:" (" attr(href) ")";}
+a[href^="#"]:after{content:"";}
+}
+*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+a{color:#337ab7;text-decoration:none;}
+a:focus,a:hover{color:#23527c;text-decoration:underline;}
+a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px;}
+h5{font-family:inherit;font-weight:500;line-height:1.1;color:inherit;}
+h5{margin-top:10px;margin-bottom:10px;}
+h5{font-size:14px;}
+.row{margin-right:-15px;margin-left:-15px;}
+.col-md-3{position:relative;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:992px){
+.col-md-3{float:left;}
+.col-md-3{width:25%;}
+}
+.row:after,.row:before{display:table;content:" ";}
+.row:after{clear:both;}
+/*! CSS Used from: file:///C:/Users/redli/Desktop/themeforest-19474729-medipro-health-medical-html5-responsive-template%20(1)/main_files_v1.0/css/style.css */
+*{margin:0px;padding:0px;border:none;outline:none;}
+h5{font-size:1.143em;letter-spacing:0.5px;}
+h5{position:relative;font-family:'PT Sans', sans-serif;margin:0px;font-weight:600;background:none;line-height:1.8em;}
+a{text-decoration:none;cursor:pointer;color:#243644;}
+a:hover,a:focus{text-decoration:none;outline:none;color:#0798BC;transition:all 500ms ease;-moz-transition:all 500ms ease;-webkit-transition:all 500ms ease;-ms-transition:all 500ms ease;-o-transition:all 500ms ease;}
+.service-box.style-1{color:#fff;padding:40px 25px;position:relative;text-align:center;transform:translateZ(0px);z-index:1;margin-bottom:30px;}
+.service-box.style-1::before,.service-box.style-1::after{bottom:0;content:"";left:0;margin:10px;position:absolute;right:0;top:0;transition:all 0.3s ease 0s;z-index:3;}
+.service-box.style-1::before{border-left:1px solid #26ae61;border-right:1px solid #26ae61;transform:scaleY(0);transform-origin:100% 0 0;}
+.service-box.style-1::after{border-bottom:1px solid #26ae61;border-top:1px solid #26ae61;transform:scaleX(0);transform-origin:0 100% 0;}
+.service-box.style-1 .service-box-overlay{background-color: #e9e9e9;bottom:0;left:0;position:absolute;right:0;top:0;z-index:2;border: 1px solid #969696;transition:all 0.3s ease 0s;}
+.service-box.style-1:hover .service-box-overlay{background-color:rgb(255, 255, 255);opacity:0.9;}
+.service-box.style-1 > i{color:#FFF;display:block;font-size:64px;line-height:64px;margin-bottom:15px;position:relative;z-index:4;}
+.service-box.style-1 .service-box-content{position:relative;z-index:4;}
+.service-box.style-1 .service-box-content a{color: #26ae61;font-weight: normal;}
+.service-box.style-1 .service-box-content h5{text-transform:uppercase;}
+.service-box.style-1:hover::before{transform:scaleY(1);}
+.service-box.style-1:hover::after{transform:scaleX(1);}
+.service-box.style-1:hover .service-box-overlay {
+    background-color: #243644;
+    opacity: 0.9;
+}
+/*! CSS Used fontfaces */
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:400;src:local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v9/GpWpM_6S4VQLPNAQ3iWvVRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:400;src:local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v9/7dSh6BcuqDLzS2qAASIeuhJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:400;src:local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v9/DVKQJxMmC9WF_oplMzlQqRJtnKITppOI_IvcXXDNrsc.woff2) format('woff2');unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:400;src:local('PT Sans Italic'), local('PTSans-Italic'), url(https://fonts.gstatic.com/s/ptsans/v9/PIPMHY90P7jtyjpXuZ2cLFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:700;src:local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkK-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:700;src:local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkJX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:700;src:local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkD0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'PT Sans';font-style:italic;font-weight:700;src:local('PT Sans Bold Italic'), local('PTSans-BoldItalic'), url(https://fonts.gstatic.com/s/ptsans/v9/lILlYDvubYemzYzN7GbLkOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:400;src:local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/JX7MlXqjSJNjQvI4heMMGvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:400;src:local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/vtwNVMP8y9C17vLvIBNZI_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:400;src:local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/9kaD4V2pNPMMeUVBHayd7vY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:400;src:local('PT Sans'), local('PTSans-Regular'), url(https://fonts.gstatic.com/s/ptsans/v9/ATKpv8nLYAKUYexo8iqqrg.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:700;src:local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/kTYfCWJhlldPf5LnG4ZnHCEAvth_LlrfE80CYdSH47w.woff2) format('woff2');unicode-range:U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:700;src:local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/g46X4VH_KHOWAAa-HpnGPiEAvth_LlrfE80CYdSH47w.woff2) format('woff2');unicode-range:U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:700;src:local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/hpORcvLZtemlH8gI-1S-7iEAvth_LlrfE80CYdSH47w.woff2) format('woff2');unicode-range:U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;}
+@font-face{font-family:'PT Sans';font-style:normal;font-weight:700;src:local('PT Sans Bold'), local('PTSans-Bold'), url(https://fonts.gstatic.com/s/ptsans/v9/0XxGQsSc1g4rdRdjJKZrNPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;}
