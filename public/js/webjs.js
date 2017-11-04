@@ -149,6 +149,43 @@ function readURL(input) {
         }
 }
 
+
+
 })(jQuery);
 
-/*///////Companies list////////*/
+// Popular categories hover effect
+$(document).ready(function() {
+    $('.ico').hide();
+
+    $('.service-box').hover(function() {
+		$(this).find('.category-link').hide();
+		$(this).find('.ico').show();
+    }, function() {
+		$(this).find('.category-link').show();
+        $(this).find('.ico').hide();
+	});
+	
+});
+
+
+// Skill / Job background color transition
+$(document).ready(function() {
+	$('.project-search-btn').hide();
+
+	$('.btn-project').click(function() {
+		$('.project-search-btn').show();
+		$('.skill-search-btn').hide();
+		$('.jobs_filters').animate({backgroundColor:'#243644'}, 500);
+		$('.filter-icon').animate({ color: "#243644"}, 500);
+	});
+	
+	$('.btn-skill').click(function() {
+		$('.project-search-btn').hide();
+		$('.skill-search-btn').show();
+		$('.jobs_filters').animate({ backgroundColor: "#26ae61" }, 500);
+		$('.filter-icon').animate({ color: "#26ae61"}, 500);
+	});
+
+
+});
+

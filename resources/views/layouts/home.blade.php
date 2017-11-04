@@ -16,6 +16,8 @@
      <link href="{{ asset('webcss/animate.css') }}" rel="stylesheet">
      <!--Owsome Fonts -->
      <link rel="stylesheet" href="{{ asset('line-awesome/css/line-awesome-font-awesome.min.css') }}">
+     <!-- Jquery UI-->
+     <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />
      <!-- Important Owl stylesheet -->
     <link rel="stylesheet" href="{{ asset('owlslider/owl-carousel/owl.carousel.css') }}">
      
@@ -123,6 +125,17 @@
                  
                 <div class="jobs_filters">
                     <div class="container">
+
+     <div class="container-fluid price-tags">
+        	<div class="container">
+            	<div class="col-lg-12">
+                    <a href="#" class="btn btn-skill"><i class="fa fa-gavel"></i>Skills</a>
+                    <a href="#" class="btn btn-project"><i class="fa fa-sitemap"></i>Projects</a>
+                </div>
+            </div>
+          
+        </div>
+                       
                         	<form class="" action="index.html">
                     	<!--col-lg-3 filter_width -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon">
@@ -130,7 +143,7 @@
                                 <div class="dropdown">
                                         <button class="filters_feilds btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                         Category
-                                        <span class="glyphicon glyphicon-menu-down"></span>
+                                        <span class="glyphicon glyphicon-menu-down filter-icon"></span>
                                         </button>
                                     
                                     <div class="dropdown-menu "  aria-labelledby="dropdownMenu1">
@@ -139,7 +152,7 @@
                                             <li><a href="#">Graphic designer</a></li>
                                             <li><a href="#">Developer</a></li>
                                             <li><a href="#">UX Designer</a></li>
-                                             <li><a href="#">Web Developer</a></li>
+                                            <li><a href="#">Web Developer</a></li>
                                             <li><a href="#">Graphic designer</a></li>
                                             <li><a href="#">Developer</a></li>
                                             <li><a href="#">UX Designer</a></li>
@@ -149,13 +162,15 @@
                             </div>
                             <span>e.g. Finance</span>
                         </div>
+
+                         
                          <!--col-lg-3 filter_width -->
                          
                          <!-- col-lg-5 filter_width -->
                             <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12 filter_width bgicon">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Keyword, job title or skill">
-                                    <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span>
+                                    <span class="glyphicon glyphicon-briefcase filter-icon" aria-hidden="true"></span>
                                 </div>
                                 <span>e.g. Designer</span>
                             </div>
@@ -164,16 +179,27 @@
                         	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon location">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="Location">
-                                    <span class="glyphicon fa fa-location-arrow" aria-hidden="true"></span>
+                                    <span class="glyphicon fa fa-location-arrow filter-icon" aria-hidden="true"></span>
                                 </div>
                                 <span>e.g. New York</span>
                             </div>
-                            <div class="col-lg-1 col-md-2 col-sm-6 col-xs-12 filter_width bgicon submit">
+
+                            <!-- Skill search btn -->
+                            <div class="col-lg-1 col-md-2 col-sm-6 col-xs-12 skill-search-btn filter_width bgicon submit">
                                 <div class="form-group">
-                                   <input type="submit" class="customsubmit" name="submit" value="Search"/>
+                                   <input type="submit" class="customsubmit" name="sSubmit" value="Search"/>
                                    <span class="glyphicon fa fa-search" aria-hidden="true"></span>
                                 </div>
                             </div>
+
+                            <!-- Project search btn -->
+                            <div class="col-lg-1 col-md-2 project-search-btn col-sm-6 col-xs-12 filter_width bgicon submit">
+                                <div class="form-group">
+                                   <input type="submit" class="projectsubmit" name="pSubmit" value="Search"/>
+                                   <span class="glyphicon fa fa-search" aria-hidden="true"></span>
+                                </div>
+                            </div>
+
                             </form>
                     </div>
          
@@ -231,14 +257,15 @@
               </div>
             </div>
             <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url(images/service/7.jpg);">
+              <div class="service-box style-1" style="background-image:url(images/3.jpg);">
                 <div class="service-box-overlay"></div>
-                <div class="service-box-content"> <i class="fa fa-cubes fa-3x"></i>
-                  <h5><a href="single-service.html">
-                   
-
-                     Urology 
-                  </a></h5>
+                <div class="service-box-content">
+                 <i class="fa fa-cubes fa-2x ico"></i>
+                  <h5>
+                    <a class="category-link" href="single-service.html">                 
+                        Urology 
+                    </a>
+                  </h5>
                 </div><!-- service-box-content -->
               </div>
             </div>
@@ -342,19 +369,18 @@
         </div>
     <!-- Green Banner-->
     <!-- Testimionals Slider-->
-    	<div class="container-fluid testimionals" style="background:url(assets/images/testbg.png);">
+    	<div class="container-fluid testimionals">
 			<div class="row">
             <div class="container main-container">
             	<div class="col-lg-12">
                     <div id="testio" class="owl-carousel owl-template">
                       <!--Slides-->
                       <div class="item">
-                      		<img src="assets/images/tes-profile.png" alt="Photo" /> 
+                      		<img class="img-circle" height="77" src="{{ asset('images/deki.jpg') }}" alt="Photo" /> 
                             <div class="info">
-                            	<h5>Anna Smith</h5>
-                                <span>Web Designer</span>
-                                <p>Nam eu eleifend nulla. Duis consectetur sit amet risus sit amet venenatis. Pellentesque pulvinar ante a tincidunt placerat.
-Donec dapibus efficitur arcu, a rhoncus lectus egestas elem</p>
+                            	<h5>Dejan Obradović Obrada</h5>
+                                <span>Web Developer</span>
+                                <p>Fantastičan sajt, ocena deset. Dizajn privlačan i veoma interesantan. Ideja vrhunska.</p>
                             </div>
                        </div>
                       
@@ -472,8 +498,10 @@ Donec dapibus efficitur arcu, a rhoncus lectus egestas elem</p>
 <!-- Scripts
 ================================================== -->
   	<!--  jQuery 1.7+  -->
+   
      <script type="text/javascript" src="{{ asset('js/jquery-1.9.1.min.js') }}"></script>
-     <!--Select 2-->
+    <script src="http://code.jquery.com/color/jquery.color-2.1.2.js" type="text/javascript"></script>
+    <!--Select 2-->
     <script type="text/javascript" src="{{ asset('js/select2.min.js') }}"></script>
     <!-- Html Editor -->
     <script src="{{ asset('tinymce/tinymce.min.js') }}"></script>
@@ -488,6 +516,7 @@ Donec dapibus efficitur arcu, a rhoncus lectus egestas elem</p>
   	<script type="text/javascript" src="{{ asset('counter/jquery.counterup.min.js') }}"></script> 
     <!--Site JS-->
      <script src="{{ asset('js/webjs.js') }}"></script>
+
 
      <script>
 $(window).load(function() {
