@@ -110,11 +110,12 @@
                     <!-- container-fluid -->
                     </nav>
                     
-                    <div class="container slogan">
+                        <div class="container slogan">
                         <div class="col-lg-12">
-                        	<h1 class="animated fadeInDown">Looking For a Job?</h1>
-                            <h3 class="text-center"><span>Join us </span>& Explore thousands of jobs</h3>
-                       		<a href="">We have <span>59</span> jobs offers for you!</a>
+                        	 <h1 class="animated fadeInDown">Share your skill, form a team and contact people</h1>
+                            <h3 class="text-center"><span><b>Join us </b></span>& Find thousands of skilled people that you need!</h3>
+                       		<a href="" id="switchSkill"><span>SKILLS</span></a>
+                               	<a href="" id="switchProject"><span>PROJECTS</span></a>
                         </div>
                     
                     </div>
@@ -122,7 +123,9 @@
                  </div>
                  
                 <div class="jobs_filters">
+                
                     <div class="container">
+                   
                         	<form class="" action="index.html">
                     	<!--col-lg-3 filter_width -->
                         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon">
@@ -182,79 +185,6 @@
        	</div>
     <!-- Header Section -->
 
-    <div class="container-fluid main-container price-tags">
-        	<div class="container">
-            	<div class="col-lg-12">
-                	<h3>Popular Categories</h3>
-                    <p>list of the most popular categories on skillswap</p>
-                
-                </div>
-            </div>
-          
-        </div>
-
-	<!--maine container Section -->
-        <div class="container main-container-home">
-     
-        	<div class="section-wrap">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url({{ URL::asset('images/1.jpeg') }});">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content">
-                  <h5><a href="#">Gastroenterology</a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url({{ URL::asset('images/2.jpeg') }});">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content">
-                  <h5><a href="#">cardiology </a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url({{ URL::asset('images/3.jpg') }});">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content">
-                  <h5><a href="single-service.html">pulamonalpry</a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url({{ URL::asset('images/4.jpg') }});">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content">
-                  <h5><a href="single-service.html"><img height="60px" src="{{ asset('images/icon1.png') }}" alt="Photo" /> ophthakmology </a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url(images/service/7.jpg);">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content"> <i class="fa fa-cubes fa-3x"></i>
-                  <h5><a href="single-service.html">
-                   
-
-                     Urology 
-                  </a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box style-1" style="background-image:url(images/service/7.jpg);">
-                <div class="service-box-overlay"></div>
-                <div class="service-box-content">
-                  <h5><a href="single-service.html">Dental Care</a></h5>
-                </div><!-- service-box-content -->
-              </div>
-            </div>     
-          
-          </div>
-        </div>
-        
-        </div>
     <!--main container Section -->  
   
     <!--How it works-->
