@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>DEXJOBS- Home</title>
-    <link rel="icon" href="assets{{ asset('images/favicon.png') }}">
+    <link rel="icon" href="{{ asset('images/favicon.png') }}">
     <!-- Bootstrap -->
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
     <!--Custom template CSS-->
@@ -48,11 +48,12 @@
                          <div class="container">
                              <div class="logo">
                                 <a href="index.html"><img src="assets/images/logo2.png" alt="Photo" /> </a>
-                             </div>
-                             <div class="logins">
-                    				<a href="post-a-job.html" class="post_job"><span class="label job-type partytime">POST A JOB, IT’S FREE!</span></a> 
-                                    <a href="login_register.html" class="login"><i class="fa fa-user"></i></a>
-                    		</div>
+                             </div>                             
+                             
+
+                                @yield('login')
+                                @yield('content')
+                           
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -129,8 +130,8 @@
      <div class="container-fluid price-tags">
         	<div class="container">
             	<div class="col-lg-12">
-                    <a href="#" class="btn btn-skill"><i class="fa fa-gavel"></i>Skills</a>
-                    <a href="#" class="btn btn-project"><i class="fa fa-sitemap"></i>Projects</a>
+                    <span class="btn btn-skill"><i class="fa fa-gavel"></i>Skills</span>
+                    <span href="#" class="btn btn-project"><i class="fa fa-sitemap"></i>Projects</span>
                 </div>
             </div>
           
