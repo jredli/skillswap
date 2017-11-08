@@ -96,18 +96,9 @@ body.modal-open {
     position: absolute;
     right: 60px;
     padding: 4px 0;
+    width: 242px;
 }
-.logins span {
-background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-    border: 2px solid #26ae61;
-    border-radius: 26px;
-    color: #232323;
-    font-family: OpenSansBold;
-    font-size: 13px;
-    margin-right: 0;
-    padding: 12px 30px;
-    width: auto;
-}
+.logins span {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;border: 2px solid #26ae61;border-radius: 26px;color: #232323;font-family: OpenSansBold;font-size: 13px;margin-right: 0;padding: 12px 30px;width: auto;}
 .logins span:hover {
     background: #26ae61;
     color: #fff;
@@ -1069,7 +1060,7 @@ color: #ffffff;
 /*///////Footer///////*/
 
 .main-container .list-group a::before {
-    content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦";
+    content: "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦";
     font-family: "FontAwesome";
     font-size: 13px;
     left: 15px;
@@ -1077,7 +1068,7 @@ color: #ffffff;
 }
 
 .main-container-home .list-group a::before {
-    content: "ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦";
+    content: "ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦";
     font-family: "FontAwesome";
     font-size: 13px;
     left: 15px;
@@ -3538,3 +3529,9 @@ a:hover,a:focus{text-decoration:none;outline:none;color:#0798BC;transition:all 5
     border: 1px solid #26ae61;
     border-radius: 8px;
 }
+
+.profile-image {
+    width: 40px;
+    float: right;
+}
+

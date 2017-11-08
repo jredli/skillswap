@@ -167,7 +167,6 @@ $(document).ready(function() {
 	
 });
 
-
 // Skill / Job background color transition
 $(document).ready(function() {
 	$('.project-search-btn').hide();
@@ -184,6 +183,18 @@ $(document).ready(function() {
 		$('.skill-search-btn').show();
 		$('.jobs_filters').animate({ backgroundColor: "#26ae61" }, 500);
 		$('.filter-icon').animate({ color: "#26ae61"}, 500);
+	});
+
+	// User profile dropdown
+	$(document).ready(function() {
+		$('.profile-image').hover(
+			function() {
+			  $('.user-profile .dropdown-menu').slideDown(300);
+			});
+			  $('.user-profile .dropdown-menu').mouseleave(function() {
+				$('.user-profile .dropdown-menu').slideUp(300);
+			  });
+		   
 	});
 
 

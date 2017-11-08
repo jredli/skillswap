@@ -17,15 +17,15 @@
                         	
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 zero-padding-left">
                             	<p>Login to your Recruiter account.</p>
-                                <form name="contact_us" class="contact_us">
+                                {!! Form::open(['route' => 'login', 'method'=>'POST', 'class'=>'contact_us']) !!}
                         	<div class="form-group">
-                            	<label>Name</label>
-                            	<input type="text" name="name">
+                            	 {!! Form::label('email', 'Email:') !!}
+                                 {!! Form::text('email', null, ['class'=>'form-control']) !!}                                                
                             </div>
                            
                             <div class="form-group">
-                            	<label>Password</label>
-                            	<input type="password" name="password-2" id="password-2"/>
+                            	 {!! Form::label('password', 'Password:') !!}
+                                 {!! Form::password('password', null, ['class'=>'form-control']) !!}
                             </div>
                                                         
                             <div class="form-group submit">
@@ -34,15 +34,16 @@
                                 	<input type="checkbox" name="checkbox"/>
                                 	<span>Remember me</span>
                                </div>
-                            </div>
-                            <div class="form-group submit">
-                            	<label>Submit</label>
-                            	<input type="submit" name="submit" value="Sign in" class="signin" id="signin">
+                            </div>                                                            
+                            <div class="form-group submit">                                                    
+                                {!! Form::label('login', 'Login') !!}
+                                {!! Form::submit('Login', array('class' => 'login')) !!}
                                 <a href="lost-password.html" class="lost_password">Lost Password?</a>
                             </div>
                            
-                        
-                        	</form>
+                            
+                            {!! Form::close() !!}
+                            
                         	</div>
                             <div class="col-lg-4 col-md-5 col-sm-6 col-xs-12  pull-right sidebar">
                             	<div class="widget">

@@ -69,7 +69,7 @@ class RegisterController extends Controller
 
         return redirect('/');
     }
-
+    
     public function showRegistrationForm () {
         $categories = Category::pluck('name', 'id')->all();
         $professions = Profession::pluck('name', 'id')->all();
