@@ -3529,3 +3529,12 @@ a:hover,a:focus{text-decoration:none;outline:none;color:#0798BC;transition:all 5
     background: #26ae61!important;
     border: 2px solid #26ae61!important;
 }
+
+.ddlStyle {
+    width: 75%;
+    font-size: 16px;
+    padding: 6px 17px;
+    font-family: LatoRegular;
+    border: 1px solid #26ae61;
+    border-radius: 8px;
+}
