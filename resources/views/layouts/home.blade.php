@@ -215,8 +215,6 @@
        	</div>
     <!-- Header Section -->
 
-<<<<<<< HEAD
-=======
     <div class="container-fluid main-container price-tags">
         	<div class="container">
             	<div class="col-lg-12">
@@ -291,7 +289,6 @@
         </div>
         
         </div>
->>>>>>> a60e41709ab1b3cf88d6a6263b9a0f2e5e55e68d
     <!--main container Section -->  
   
     <!--How it works-->
