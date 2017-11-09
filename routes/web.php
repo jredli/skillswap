@@ -12,9 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('layouts/home');
+    return view('main');
 });
+
+Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
