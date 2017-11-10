@@ -169,21 +169,23 @@ $(document).ready(function() {
 
 // Skill / Job background color transition
 $(document).ready(function() {
-	$('.project-search-btn').hide();
+	$('.project-filter').hide();
 
 	$('.btn-project').click(function() {
-		$('.project-search-btn').show();
-		$('.skill-search-btn').hide();
+		$('.project-filter').show();
+		$('.skill-filter').hide();
 		$('.jobs_filters').animate({backgroundColor:'#243644'}, 500);
 		$('.filter-icon').animate({ color: "#243644"}, 500);
 	});
 	
 	$('.btn-skill').click(function() {
-		$('.project-search-btn').hide();
-		$('.skill-search-btn').show();
+		$('.project-filter').hide();
+		$('.skill-filter').show();
 		$('.jobs_filters').animate({ backgroundColor: "#26ae61" }, 500);
 		$('.filter-icon').animate({ color: "#26ae61"}, 500);
 	});
+});
+
 
 	// User profile dropdown
 	$(document).ready(function() {
@@ -196,7 +198,4 @@ $(document).ready(function() {
 			  });
 		   
 	});
-
-
-});
 
