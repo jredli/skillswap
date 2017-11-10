@@ -25,4 +25,8 @@ class HomeController extends Controller
     {
         return view('main');
     }
+
+    public function showProjects(Request $data) {
+        
+    }
 }
