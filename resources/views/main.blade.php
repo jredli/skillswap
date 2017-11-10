@@ -16,7 +16,7 @@
              <div class="user-profile">
                 <ul class="dropdown-menu" style="left:80px">
                     <li class="dropdown">                        
-                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i>Profile</a>
+                        <a href="{{ route('profile.user.index') }}" class="dropdown-toggle"><i class="fa fa-user"></i>Profile</a>
                     </li>
                     <li class="dropdown">                         
                         <a href="{{ route('logout') }}"
