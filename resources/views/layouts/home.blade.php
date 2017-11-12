@@ -300,7 +300,7 @@
                 	<h3 class="white-heading">Join SkillSwap<span> and start connecting with others!</span></h3>
                 </div>
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12 no-padding-left">
-                	<a href="#" class="btn btn-getstarted bg-red">register here</a>
+                	<a href="{{ route('project.create') }}" class="btn btn-getstarted bg-red">Create a project</a>
                 </div>
             </div>
             </div>

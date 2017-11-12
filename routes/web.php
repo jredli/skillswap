@@ -17,9 +17,14 @@ Route::get('/', function () {
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::resource('user', 'UserController', [
-    'as' => 'profile'
-]);
+
+
+// Member routes
+Route::group(['middleware'=>'member'], function() {
+    Route::resource('user', 'UserController', ['as' => 'profile']);
+    Route::resource('project', 'ProjectController');
+});
+
 
 Auth::routes();
 

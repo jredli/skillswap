@@ -120,20 +120,8 @@
                                 </div>
                             </div>
                             <span>e.g. Finance</span>
-                        </div>
-
-                         
-                         <!--col-lg-3 filter_width -->
-                         
-                         <!-- col-lg-5 filter_width -->
-                            <div class="col-lg-5 col-md-4 col-sm-6 col-xs-12 filter_width bgicon">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Keyword, job title or skill">
-                                    <span class="glyphicon glyphicon-briefcase filter-icon" aria-hidden="true"></span>
-                                </div>
-                                <span>e.g. Designer</span>
-                            </div>
-                         <!-- col-lg-5 filter_width -->
+                        </div>                        
+                        
                          
                         	<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 filter_width bgicon location">
                                 <div class="form-group">
